@@ -490,7 +490,7 @@ progress {
 }
 
 [hidden] {
-  display: none !imoant;
+  display: none !important;
 }
 
 .lead {
@@ -3958,7 +3958,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #15967d;
+  color: var(--bs-blue-light);
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4005,7 +4005,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #1abc9c;
+  background-color: var(--bs-blue-light);
 }
 
 .nav-fill > .nav-link,
