@@ -12,6 +12,8 @@
  */
 :root {
   --bs-blue: #0d6efd;
+  --bs-blue-light: #4992ff;
+
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -34,6 +36,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #1abc9c;
+  
   --bs-secondary: #2c3e50;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -41,7 +44,9 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 26, 188, 156;
+
+  /*--bs-primary-rgb: 26, 188, 156;*/
+  --bs-primary-rgb: 73, 146, 255;
   --bs-secondary-rgb: 44, 62, 80;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -485,7 +490,7 @@ progress {
 }
 
 [hidden] {
-  display: none !important;
+  display: none !imoant;
 }
 
 .lead {
@@ -11474,9 +11479,9 @@ html {
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+/*.portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
-}
+}*/
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
