@@ -11380,7 +11380,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: var(--bs-blue-light);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11406,7 +11406,7 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: var(--bs-blue-light);
   }
 
   #mainNav.navbar-shrink {
